@@ -1,0 +1,1 @@
+gcc -Werror -fPIC -std=c11 -I /usr/lib/jvm/java-8-oracle/include -I /usr/lib/jvm/java-8-oracle/include/linux -I include -L /home/winston/code/java/dpdk-test/lib -shared -o libjmtcp.so li_winston_dpdktest_MTCP.c -l mtcp
